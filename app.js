@@ -1,7 +1,7 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js'
 import { getDatabase, ref, push, onValue, remove } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js'
 
-const REALTIME_DB = process.env.FIREBASE_REALTIME_DB
+const REALTIME_DB = 'https://pwa-shopping-list-app-default-rtdb.europe-west1.firebasedatabase.app/'
 
 const appSettings = {
     databaseURL: REALTIME_DB
