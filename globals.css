@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 139);
+    color: azure;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+#shopping-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-x: hidden;
+}
+
+#shopping-list > li {
+    list-style: none;
+    padding: .3em .4em;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0px 1px 4px rgb(95, 8, 255);
+    text-align: center;
+}
+
+#shopping-list > li:hover {
+    cursor: pointer;
+    background-color: #be327d;
+}
+
+.mbs13 {
+    margin-block-start: 1.3em;
+}
